@@ -1,4 +1,4 @@
-﻿namespace CMS.BillMaker.DAL.EntityTypeConfigurations
+﻿namespace CMS.News.DAL.EntityTypeConfigurations
 {
     internal class RightEntityTypeConfiguration : IEntityTypeConfiguration<Right>
     {

@@ -10,11 +10,11 @@
         public string Password { get; set; }
         public bool Status { get; set; }
         public bool IsAllowLoginMultiSession { get; set; }
+        public Guid CreatedBy { get; set; }
         public DateTime CreatedTime { get; set; }
+        public Guid? UpdatedBy { get; set; }
         public DateTime? UpdatedTime { get; set; }
-        public Guid SiteId { get; set; }
 
-        public Site Site { get; set; }
         public ICollection<UserRole> UserRoles { get; set; }
     }
 }
